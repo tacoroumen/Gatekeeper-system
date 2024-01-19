@@ -1,0 +1,19 @@
+[
+    {
+        "Morning_start_time": 7,
+	    "Noon_start_time": 12,
+	    "Evening_start_time": 18,
+	    "No_parking_acces_start_time": 23,
+	    "ESP_API_ip_or_domain": "http://192.168.137.206:80/switch/gate/turn_on",
+		"ESP_API_user": "TzywWhuSvmRFvBsaBvbejZMcAzfAvfqC",
+		"ESP_API_passwrd": "VI29ZrJ?2kHLVpVc[FrE,B&FD<r4+Vvd", 
+	    "Morning_message": "Good morning",
+        "Noon_message": "Good afternoon",
+	    "Evening_message": "Good evening",
+        "No_parking_acces_message": "Sorry, our parking facilities are currently closed.",
+		"Technical_dificulties": "Sorry, we are currently experiencing technical dificulties",
+	    "Welcome_message": "Welcome at Holiday parks.",
+		"Not_allowed": "Licensplate not permited!",
+		"API_Url": "http://4.175.81.69:8080/nummerplaat"
+	}
+]
