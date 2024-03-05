@@ -38,7 +38,7 @@ while True:
         licenseplate = pytesseract.image_to_string(plate, config='-c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 --psm 6')
         # Run terminal command with the plate as argument if it's exactly 6 characters long
         if len(licenseplate) == 7:
-            #print('License Plate:', licenseplate)
+            print('License Plate:', licenseplate)
             subprocess.run(["cmd", "/c", "go", "run", "main.go", "-plate", licenseplate])
 
     # Show the image
